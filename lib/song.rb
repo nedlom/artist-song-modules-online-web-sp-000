@@ -17,7 +17,9 @@ class Song
   end
   
   def to_param
-    
+    self.downcase.split(" ").join("-")
+  end
+
 end
 
 
