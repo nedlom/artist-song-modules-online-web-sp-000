@@ -29,6 +29,9 @@ class Artist
     self.all.detect {|a| a.name == name}
   end
   
+  def songs
+    
+  
 end
 
 
