@@ -6,7 +6,10 @@ class Artist
     @name = name
   end
   
-  def to_param(name)
+  def to_param
+    x = artist.name.downcase.split(" ")
+    x.join("-")
+    binding.pry
   end
   
 end
