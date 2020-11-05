@@ -1,5 +1,5 @@
 class Artist
-  
+  extend Paramable
   
   attr_accessor :name
   
