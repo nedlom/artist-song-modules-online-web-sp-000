@@ -1,5 +1,5 @@
 class Song
-  extend Paramable
+  include Paramable
   
   attr_accessor :name, :artist
   
