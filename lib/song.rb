@@ -1,5 +1,9 @@
 class Song
   
+  attr_accessor :name
+  
+  @@all = []
+  
   def initialize
     self.class.all << self
   end
@@ -8,7 +12,9 @@ class Song
     @@all
   end
   
-  def self.re
+  def self.reset_all
+    self.all.reset
+  end
 end
 
 
