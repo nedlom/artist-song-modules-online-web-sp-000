@@ -17,8 +17,7 @@ class Artist
   end
   
   def to_param
-    x = self.name.downcase.split(" ")
-    x.join("-")
+   self.name.downcase.gsub(/ /, "-")
   end
   
   def self.count
