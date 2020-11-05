@@ -1,4 +1,5 @@
 class Song
+  extend Paramable
   
   attr_accessor :name, :artist
   
@@ -16,9 +17,6 @@ class Song
     self.all.clear
   end
   
-  def to_param
-    self.name.downcase.gsub(/ /, "-")
-  end
   
   def self.count
     self.all.count
