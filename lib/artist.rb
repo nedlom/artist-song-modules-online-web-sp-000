@@ -22,6 +22,10 @@ class Artist
   end
   
   def self.count
+    self.all.count
+  end
+  
+  
   
 end
 
