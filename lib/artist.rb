@@ -21,6 +21,8 @@ class Artist
     x.join("-")
   end
   
+  def self.count
+  
 end
 
 
