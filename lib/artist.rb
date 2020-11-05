@@ -6,6 +6,9 @@ class Artist
     @name = name
   end
   
+  def to_param(name)
+  end
+  
 end
 
 
