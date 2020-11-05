@@ -4,8 +4,6 @@ module Findable
     all.clear
   end
   
-  
-  
   def count
     all.count
   end
