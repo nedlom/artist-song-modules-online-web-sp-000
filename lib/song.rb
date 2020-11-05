@@ -1,4 +1,14 @@
 class Song
+  
+  def initialize
+    self.class.all << self
+  end
+  
+  def self.all
+    @@all
+  end
+  
+  def self.re
 end
 
 
