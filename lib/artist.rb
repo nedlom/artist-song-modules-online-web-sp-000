@@ -24,28 +24,6 @@ class Artist
   
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # class Artist
 #   include Memorable::InstanceMethods, Paramable
 #   extend Memorable::ClassMethods, Findable
