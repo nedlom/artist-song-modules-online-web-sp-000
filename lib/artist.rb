@@ -1,6 +1,6 @@
 class Artist
   include Paramable
-  extend findable
+  extend Findable
   
   attr_accessor :name
   
