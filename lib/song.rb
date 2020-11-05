@@ -17,7 +17,7 @@ class Song
   end
   
   def to_param
-    self.name.downcase.split(" ").join("-")
+    self.name.downcase.gsub(/ /, "-")
   end
   
   def self.count
