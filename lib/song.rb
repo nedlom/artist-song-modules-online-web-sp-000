@@ -1,5 +1,6 @@
 class Song
   include Paramable
+  extend findable
   
   attr_accessor :name, :artist
   
