@@ -33,8 +33,8 @@ class Artist
     Song.all.select {|s| s.artist == self}
   end
   
-  def add_song(song)
-    song.artist = self
+  def add_songs(songs)
+    songs.each {|s| song.artist = self}
   end
   
 end
