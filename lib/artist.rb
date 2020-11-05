@@ -17,7 +17,7 @@ class Artist
   end
   
   def to_param
-    x = artist.name.downcase.split(" ")
+    x = self.name.downcase.split(" ")
     x.join("-")
     binding.pry
   end
