@@ -6,13 +6,9 @@ class Artist
   
   @@all = []
   
-  
-  
   def self.all
     @@all
   end
-  
-  
   
   def songs
     Song.all.select {|s| s.artist == self}
